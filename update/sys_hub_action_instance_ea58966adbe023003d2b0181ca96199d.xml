@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="challenge">ae711666dbe023003d2b0181ca961999</flow>
+        <order>4.2</order>
+        <parent_ui_id>ce0cfc52-ae20-44bc-ab37-ccd37703f78d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-17 20:37:59</sys_created_on>
+        <sys_id>ea58966adbe023003d2b0181ca96199d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_ea58966adbe023003d2b0181ca96199d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-17 20:38:00</sys_updated_on>
+        <ui_id>bc577dfc-016a-402a-8d2f-615f1255f1dd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ea58966adbe023003d2b0181ca96199d"/>
+    <sys_element_mapping action="delete_multiple" query="id=ea58966adbe023003d2b0181ca96199d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>ea58966adbe023003d2b0181ca96199d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-17 20:37:59</sys_created_on>
+        <sys_id>ae58966adbe023003d2b0181ca96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-17 20:37:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
+        <value>The needit task ({{ce0cfc52-ae20-44bc-ab37-ccd37703f78d.item.number}}) was automatically</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>ea58966adbe023003d2b0181ca96199d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-17 20:38:00</sys_created_on>
+        <sys_id>ba58966adbe023003d2b0181ca9619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-17 20:38:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>The needit task ({{ce0cfc52-ae20-44bc-ab37-ccd37703f78d.item.number}}) was automatically</value>
+    </sys_element_mapping>
+</record_update>
